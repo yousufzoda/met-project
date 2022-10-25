@@ -1,0 +1,167 @@
+{
+    "exsercise": [
+        {
+            "id": 1,
+            "type": "test",
+            "scripts": "src/js/test.js",
+            "styles": "scc.css",
+            "questions": "lorem im",
+            "trueAnswerId": 3,
+            "answers": [
+                {
+                    "id": 1,
+                    "text": "lorem ipsum dolor set 1"
+                },
+                {
+                    "id": "2",
+                    "text": "lorem ipsum dolor set 2"
+                },
+                {
+                    "id": "3",
+                    "text": "lorem ipsum dolor set 3"
+                },
+                {
+                    "id": "4",
+                    "text": "lorem ipsum dolor set 4"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "type": "matching",
+            "scripts": "src/js/test.js",
+            "styles": "scc.css",
+            "question": "lorem im",
+            "answers": [
+                {
+                    "id": 1,
+                    "text": "lorem ipsum dolor set 1"
+                },
+                {
+                    "id": 2,
+                    "text": "lorem ipsum dolor set 2"
+                },
+                {
+                    "id": 3,
+                    "text": "lorem ipsum dolor set 3"
+                },
+                {
+                    "id": 4,
+                    "text": "lorem ipsum dolor set 4"
+                },
+                {
+                    "id": 5,
+                    "text": "lorem ipsum dolor set 5"
+                }
+            ],
+            "questions": [
+                {
+                    "id": 1,
+                    "text": "lorem ipsum dolor set 1",
+                    "answerId": 2
+                },
+                {
+                    "id": 2,
+                    "text": "lorem ipsum dolor set 2",
+                    "answerId": 1
+                },
+                {
+                    "id": 3,
+                    "text": "lorem ipsum dolor set 3",
+                    "answerId": 3
+                },
+                {
+                    "id": 4,
+                    "text": "lorem ipsum dolor set 4",
+                    "answerId": 5
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "type": "krasword",
+            "scripts": "src/js/test.js",
+            "styles": "scc.css",
+            "question": "lorem im",
+            "body": [
+                [
+                    {
+                        "id": 1,
+                        "text": "A"
+                    },
+                    {
+                        "id": 1,
+                        "text": "A"
+                    },
+                    {
+                        "id": 1,
+                        "text": "A"
+                    },
+                    {
+                        "id": 1,
+                        "text": "A"
+                    },
+                    {
+                        "id": 1,
+                        "text": "A"
+                    }
+                ],
+                [
+                    {
+                        "id": 1,
+                        "text": "A"
+                    },
+                    {
+                        "id": 1,
+                        "text": "A"
+                    },
+                    {
+                        "id": 1,
+                        "text": "A"
+                    },
+                    {
+                        "id": 1,
+                        "text": "A"
+                    },
+                    {
+                        "id": 1,
+                        "text": "A"
+                    }
+                ]
+            ],
+            "answers": [
+                {
+                    "id": 1,
+                    "logic": "01A,02A,03A"
+                },
+                {
+                    "id": 1,
+                    "logic": "01A,02A,03A"
+                },
+                {
+                    "id": 1,
+                    "logic": "01A,02A,03A"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "type": "dragdrop",
+            "scripts": "src/js/test.js",
+            "styles": "scc.css",
+            "question": "lorem im",
+            "containers": [
+                {
+                    "id": 1,
+                    "text": "lorem ipsum dolor set 1"
+                }
+            ],
+            "items": [
+                {
+                    "id": 1,
+                    "containerId": 1
+                }
+            ]
+        }
+    ]
+}
